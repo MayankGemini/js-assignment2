@@ -1,0 +1,107 @@
+body {
+  background-color: #5bb0ad1c;
+}
+
+.container-fluid {
+  padding: 50px;
+  background-color: hsla(200, 37%, 49%, 0.8);
+  border-radius: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  left: 80px;
+  top: 2px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#submit {
+  background-color: #4caf50;
+}
+
+#submit:hover {
+  background-color: #3e8e41;
+}
+
+#reset {
+  background-color: #f44336;
+}
+
+#reset:hover {
+  background-color: #d32f2f;
+}
+
+#myTable {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 8px;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#myTable th {
+  background-color: #00008b;
+  color: white;
+}
+
+.button_div {
+  margin-top: 20px;
+  text-align: right;
+}
+
+#clr {
+  background-color: #f44336;
+}
+
+#clr:hover {
+  background-color: #d32f2f;
+}
+
+#csvExtractor {
+  background-color: #4caf50;
+}
+
+#csvExtractor:hover {
+  background-color: #3e8e41;
+}
+
+#results {
+  margin-top: 20px;
+  font-weight: bold;
+}
