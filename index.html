@@ -1,86 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS ASSIGNMENT-02</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <style>
-      .center-text {
-        text-align: center;
-      }
-    </style>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+body {
+  background-color: #5bb0ad1c;
+}
 
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6 center-text"><h2>Enter Registration Details</h2></div>
-        <div class="col-4 center-text"><h2>Employee Records</h2></div>
-      </div>
+.container-fluid {
+  padding: 50px;
+  background-color: hsla(200, 37%, 49%, 0.8);
+  border-radius: 10px;
+}
 
-      <div class="row">
-        <div class="col-5">
-          <form>
-            <label for="name">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              required
-              placeholder="Enter your Name"
-            />
+.center-text {
+  text-align: center;
+}
 
-            <label for="E-mail">E-mail</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              required
-              placeholder="Enter your Email"
-            />
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  left: 80px;
+  top: 2px;
+}
 
-            <label for="phone">Phone Number</label>
-            <input
-              type="tel"
-              class="form-control"
-              id="phone"
-              placeholder="Enter your Phone Number"
-            />
+form {
+  margin-top: 20px;
+}
 
-            <button id="submit" type="button">Submit</button>
-            <button type="reset" id="reset">Reset</button>
-          </form>
-        </div>
+label {
+  font-weight: bold;
+}
 
-        <!-- <div id="result"></div> -->
-        <div class="col-5">
-          <table id="myTable">
-            <thead>
-              <tr>
-                <th>SNo</th>
-                <th>Name</th>
-                <th>Phone Number</th>
-                <th>Email</th>
-              </tr>
-            </thead>
-          </table>
-          <div class="button_div"></div>
-          <div id="results"></div>
-        </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
-</html>
+button {
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#submit {
+  background-color: #4caf50;
+}
+
+#submit:hover {
+  background-color: #3e8e41;
+}
+
+#reset {
+  background-color: #f44336;
+}
+
+#reset:hover {
+  background-color: #d32f2f;
+}
+
+#myTable {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 8px;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #00008b;
+}
+
+#myTable th {
+  background-color: #00008b;
+  color: white;
+}
+
+.button_div {
+  margin-top: 20px;
+  text-align: right;
+}
+
+#clr {
+  background-color: #f44336;
+}
+
+#clr:hover {
+  background-color: #d32f2f;
+}
+
+#csvExtractor {
+  background-color: #4caf50;
+}
+
+#csvExtractor:hover {
+  background-color: #3e8e41;
+}
+
+#results {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
